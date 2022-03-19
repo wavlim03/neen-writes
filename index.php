@@ -1,4 +1,4 @@
-<?php 
+<?php include_once("register.php"); 
 	session_start(); 
 
 	if (!isset($_SESSION['username'])) {
